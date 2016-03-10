@@ -1,0 +1,97 @@
+﻿    body {
+    font: 14px TimesNewRoman, Helvetica, sans-serif;
+    background: #6f5997;
+    background-image: url('imgs/background.jpg');
+    -ms-background-size: cover;
+    background-size:cover; 
+    }
+    h5 {
+
+        text-transform: uppercase;
+         text-align: center;
+        -ms-opacity: 0.6;
+        opacity: 0.6;
+
+    }
+
+    p {
+            color: silver;
+            font: 11px TimesNewRoman, Helvetica, sans-serif;
+             text-transform:none;
+    }
+
+    input[type="button"]:enabled {       
+                background:lightpink;
+    }
+
+    .imgSize{
+         text-align: center;
+     }
+
+    .block {
+            width:260px;
+            height: 300px;
+            float: left;
+            background: white;
+            padding: 20px;
+            margin: 20px;
+    
+    }
+
+    @media screen and (min-width: 1350px) {
+     p input[type="checkbox"]{
+         margin: 20px;       
+    }
+
+    #fix {
+        position: fixed;
+    }
+
+    #refresh, #loadBtn,#items {
+        margin-top: 40px;
+        display: block;
+    }
+
+    #activeBtn, #refresh, #deactiveBtn,#loadBtn,#items{
+        width: 150px;
+        height: 50px;
+        margin-left: 20px;
+        display: inline-block;
+    
+    }
+  
+      #mainBlock {
+                width:1020px;
+                height: 320px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto; 
+    
+        }
+    }
+
+     @media screen and (min-width: 600px) and (max-width: 1300px) {
+        #activeBtn, #refresh, #deactiveBtn,#loadBtn,#items{
+        width: auto !important;
+        height: auto !important;   
+        }
+        #mainBlock {
+            width: 68%;
+            height: 45.65%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto; 
+    
+         }
+        #fix {
+            position:fixed;
+        }
+     }
+
+ 
